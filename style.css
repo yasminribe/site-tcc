@@ -19,6 +19,15 @@ html::-webkit-scrollbar-thumb{
     background-color: #001d49;
     border-radius: 5rem;
 }
+
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #001d49;
+    border-radius: 5rem;
+}
 /* MENU */
 #cabecalho-principal {
     background-color: #1C3879;
