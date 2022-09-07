@@ -6,7 +6,19 @@
     padding: 0;
     box-sizing: border-box;/* faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura */
 }
+/* Barra de rolagem */
+html::-webkit-scrollbar{
+    width: .3rem;
+}
 
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #001d49;
+    border-radius: 5rem;
+}
 /* MENU */
 #cabecalho-principal {
     background-color: #1C3879;
