@@ -22,7 +22,7 @@ html::-webkit-scrollbar-thumb{
 
 /* MENU */
 #cabecalho-principal {
-    background-color: #1C3879;
+    background-color:#0c253a;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@ html::-webkit-scrollbar-thumb{
 }
 .nav-bar ul li a:hover {
     text-decoration:underline;
-    color: #001d49
+    color: #1C3879
 }
 
 /* Marketing - chamada da pagina Home */
@@ -218,6 +218,7 @@ html::-webkit-scrollbar-thumb{
 #detalhes-2 img{
     margin-top: 95px;
 }
+
 .detalhes-descricao dl dt{
     margin: 0.5em 0;
     font-size: 1.2rem;
@@ -225,6 +226,13 @@ html::-webkit-scrollbar-thumb{
 }
 #detalhes-3 img{
     margin-top: 40px;
+}
+#detalhes-1 img:hover,
+#detalhes-2 img:hover,
+#detalhes-3 img:hover {
+
+    transform: scale(1.1);
+    box-shadow: 5px 5px 0 #0130484f;
 }
 
 /* Rodapé */
