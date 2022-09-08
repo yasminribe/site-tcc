@@ -113,23 +113,31 @@ html::-webkit-scrollbar-thumb{
 
 }
 
-.curso1-bordas .botao {
+.curso1-bordas .btn  {
     float:right;
     cursor: pointer;
     margin-top: 10px;
+    
 
 }
-.botao, .btn{
+.btn{
     padding: 12px;
     background-color: #b8e6f4;
     font-weight: bold;
     border-radius: 17px;
+
 }
-.botao:hover,
+.btn a{
+    color:#000;
+    text-decoration: none;
+}
+
 .btn:hover {
-    background-color: #0a0ae0;
-    color: #fff;
+    background-color: #01018a;
     
+}
+.btn a:hover{
+    color: #fff;
 }
 #info{
     height: 200px;
