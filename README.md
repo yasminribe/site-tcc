@@ -1,3 +1,3 @@
 # site-tcc
 
-página home e quem somos do mini projeto
+site em grupo, sobre plataforma de ensino a distância
